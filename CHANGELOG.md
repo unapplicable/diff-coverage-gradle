@@ -1,5 +1,10 @@
 # Diff-Coverage Gradle plugin Changelog
 
+## [0.9.7]
+### Dependency Upgrades
+- Bump jacoco dep to 0.8.12
+
+
 ## [0.9.6]
 ### Dependency Upgrades
 - Forked project to io.github.unapplicable
