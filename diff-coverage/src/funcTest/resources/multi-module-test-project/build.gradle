@@ -1,7 +1,7 @@
 plugins {
     id 'java'
     id 'jacoco'
-    id 'com.form.diff-coverage'
+    id 'io.github.unapplicable.diff-coverage'
 }
 
 group 'org.example'

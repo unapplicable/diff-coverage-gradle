@@ -1,4 +1,4 @@
-group 'com.form.coverage'
+group 'io.github.unapplicable.coverage'
 
 ext {
     jacoco_version = '0.8.8'

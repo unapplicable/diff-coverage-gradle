@@ -58,7 +58,7 @@ buildscript {
 
 ```groovy
 apply plugin: 'jacoco'
-apply plugin: 'com.form.diff-coverage'
+apply plugin: 'io.github.unapplicable.diff-coverage'
 ```
 
 </details>
@@ -69,7 +69,7 @@ apply plugin: 'com.form.diff-coverage'
 plugins {
     jacoco
 }
-apply(plugin = "com.form.diff-coverage")
+apply(plugin = "io.github.unapplicable.diff-coverage")
 ```
 
 </details>
@@ -96,7 +96,7 @@ diffCoverageReport {
 <summary><b>Kotlin</b></summary>
 
 ```kotlin
-configure<com.form.coverage.gradle.ChangesetCoverageConfiguration> {
+configure<io.github.unapplicable.coverage.gradle.ChangesetCoverageConfiguration> {
     diffSource.file = ${PATH_TO_DIFF_FILE}
 
     violationRules.failIfCoverageLessThan(0.9)
@@ -123,7 +123,7 @@ buildscript {
 
 apply plugin: 'java'
 apply plugin: 'jacoco'
-apply plugin: 'com.form.diff-coverage'
+apply plugin: 'io.github.unapplicable.diff-coverage'
 
 diffCoverageReport {
     diffSource {

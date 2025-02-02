@@ -7,21 +7,21 @@ plugins {
     id 'jacoco'
 }
 
-group 'com.form.coverage'
+group 'io.github.unapplicable.coverage'
 
 gradlePlugin {
     plugins {
         diffCoveragePlugin {
-            id = "com.form.diff-coverage"
+            id = "io.github.unapplicable.diff-coverage"
             displayName = "Diff Coverage"
             description = "Plugin that computes code coverage on modified code"
-            implementationClass = "com.form.coverage.gradle.DiffCoveragePlugin"
+            implementationClass = "io.github.unapplicable.coverage.gradle.DiffCoveragePlugin"
         }
     }
 }
 pluginBundle {
-    website = 'https://github.com/form-com/diff-coverage-gradle'
-    vcsUrl = 'https://github.com/form-com/diff-coverage-gradle.git'
+    website = 'https://github.com/unapplicable/diff-coverage-gradle'
+    vcsUrl = 'https://github.com/unapplicable/diff-coverage-gradle.git'
     tags = ["coverage", "jacoco", "differential-coverage", "diff-coverage", "code-coverage"]
 }
 

@@ -1,5 +1,5 @@
 plugins {
-    id 'com.form.diff-coverage'
+    id 'io.github.unapplicable.diff-coverage'
     id 'java'
     id 'jacoco'
 }
