@@ -1,5 +1,10 @@
 # Diff-Coverage Gradle plugin Changelog
 
+## [0.9.6]
+### Dependency Upgrades
+- Forked project to io.github.unapplicable
+
+
 ## [0.9.5]
 ### Dependency Upgrades
 - Updated log4j dependency to 2.18.0 #58
